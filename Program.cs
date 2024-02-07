@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Enter your string : ");
+            string input = Console.ReadLine();
+            Console.WriteLine($"Sort Characters By Frequency : {SortCharactersByFrequency.FrequencySort(input)}");
         }
     }
 }
